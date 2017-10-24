@@ -3,7 +3,7 @@ This is a template to use to start working on the ThreeJS Workshop
 
 ## How To Run
 
-Due to [Cross-Origin Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) you will want to run your Three.JS application as a web server so you can load textures and other files in.
+Due to [Cross-Origin Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) you will want to run your Three.JS application as a web server so you can load textures and other files in. Some simple options are below, otherwise you can [reference Three.JS documentation on this](https://threejs.org/docs/index.html#manual/introduction/How-to-run-thing-locally)
 
 ### Running a basic webserver
 
