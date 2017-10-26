@@ -8,13 +8,21 @@
     <link rel="stylesheet" type="text/css" href="style/style.css"> 
     
   </head>
-  <body>
+  <!-- This file first calls init() which kicks off everything -->
+  <body onload="init()">
     
     <script src="library/three.js"></script>
     <!-- Use three.js when debugging otherwise use three.min.js -->
     <!--<script src="library/three.js"></script>-->
     
-    <script src="javascript/main.js"></script>
-       
+    <!-- Uncomment line below to run globe demo -->
+    <!-- <script src="javascript/main.js"></script> -->
+
+    <!-- Uncomment two lines below to run Audio Visualizer -->
+    
+    <script src="library/OrbitControls.js"></script> 
+    <script src="javascript/audioVisualizer.js"></script>    
+    <audio id="myAudio"></audio>
+
   </body>
 </html>

@@ -33,3 +33,7 @@ Running a webserver really just means you have some code running that waits for 
   - go to [http://localhost:8080](http://localhost:8080) to see page
 - To change to a different port, for instance, port 9001
   - run `http-server -p 9001`
+
+### What you should see
+
+![preview](Preview.png)
